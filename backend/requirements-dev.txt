@@ -1,0 +1,4 @@
+-r requirements.txt
+pytest==9.1.1
+pypdf==5.9.0           # PDF text assertions in tests
+playwright==1.56.0     # optional: browser end-to-end walkthrough (frontend/e2e/ui_flow.py)

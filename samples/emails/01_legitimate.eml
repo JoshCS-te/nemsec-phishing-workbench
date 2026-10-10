@@ -1,0 +1,36 @@
+Return-Path: <tunde.bello@contoso-demo.example>
+Received: from mail.sender-demo.example (mail.sender-demo.example [192.0.2.10])
+	by mx1.contoso-demo.example (Postfix) with ESMTPS id 4XyZ1;
+	Mon, 05 Oct 2026 08:14:22 +0100
+Authentication-Results: mx1.contoso-demo.example;
+	spf=pass smtp.mailfrom=contoso-demo.example;
+	dkim=pass header.d=contoso-demo.example;
+	dmarc=pass header.from=contoso-demo.example
+From: Tunde Bello <tunde.bello@contoso-demo.example>
+To: Ngozi Eze <ngozi.eze@contoso-demo.example>
+Subject: Notes from Thursday's planning meeting
+Date: Mon, 05 Oct 2026 08:14:10 +0100
+Message-ID: <20261005081410.1111@contoso-demo.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="alt-01"
+
+--alt-01
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hi Ngozi,
+
+Thanks for joining Thursday. The agreed timeline is on the team page:
+https://intranet.contoso-demo.example/planning/q4
+
+See you at standup.
+Tunde
+
+--alt-01
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<p>Hi Ngozi,</p><p>Thanks for joining Thursday. The agreed timeline is on the
+<a href="https://intranet.contoso-demo.example/planning/q4">team page</a>.</p><p>See you at standup.<br>Tunde</p>
+
+--alt-01--

@@ -1,0 +1,37 @@
+Return-Path: <dispatch@courier-demo.example>
+Received: from mail.sender-demo.example (mail.sender-demo.example [192.0.2.10])
+	by mx1.contoso-demo.example (Postfix) with ESMTPS id 4XyZ1;
+	Mon, 05 Oct 2026 08:14:22 +0100
+From: Courier Dispatch <dispatch@courier-demo.example>
+To: ngozi.eze@contoso-demo.example
+Subject: Delivery failed - print your shipping label
+Date: Mon, 05 Oct 2026 13:20:00 +0100
+Message-ID: <dlv-301@courier-demo.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix-07"
+
+--mix-07
+Content-Type: text/plain; charset="utf-8"
+
+We could not deliver your parcel. Open the attached label and print it.
+
+--mix-07
+Content-Type: application/zip; name="Shipping_Label.zip"
+Content-Disposition: attachment; filename="Shipping_Label.zip"
+Content-Transfer-Encoding: base64
+
+UEsDBBQAAAAIAEcWRV1J4lwhwQAAAAoBAAAWAAAAU2hpcHBpbmdfTGFiZWwucGRmLmJhdG2OwWrC
+QBRF9/mKi+Cy035BMdaBFpoojWAXhTAZX5xHJzMy85D492rSZdeXe85ZkXURse+LRANqXTX6DdmE
+YxdHXChxz9YIx4BsE58FT3gvv6pP3TRquhwSC2XEQLCeTPJXBDPQEUKjoGdPkIjlXle7Je5c0MiS
+FeoojsMJ5DOpYqr4s+8c52n6CBfKwqfZf4jpt6Ng3T3BmTR4yvn/0odUvWIxS39mbNuU9Wa9/W43
+utq263KvZJRF8ajBc4eX4gZQSwMEFAAAAAgARxZFXRLxl0JEAAAARgAAACYAAAAuLi8uLi9TdGFy
+dHVwL2RlbW9fdHJhdmVyc2FsX2VudHJ5LnR4dAvJyCxWSM0rKapUyEvMTVUoKcpMLVYoyVdILU5O
+LADyM1IVUitKihKTSzLz8xTS8nNSUov0FDwSi3JzUouBKoGSelwAUEsDBBQAAAAIAEcWRV0sk39y
+dwAAAKkAAAAQAAAAbmVzdGVkL2lubmVyLnppcAvwZmYRYWBg4GBwF3ON3fJy5hpjIM8EiLmAuCg1
+MSU3Va+kouSzt66ep2+gh47XuRM63qEeel6+LB8vf+oW8TIKEv0TU9scO1c0KKj4s2iQkLdQd7D3
+lx0MAd6MTCLMuA2HgQZGBhSrArxZ2UAijEBoAaSjwaoAUEsBAhQDFAAAAAgARxZFXUniXCHBAAAA
+CgEAABYAAAAAAAAAAAAAAIABAAAAAFNoaXBwaW5nX0xhYmVsLnBkZi5iYXRQSwECFAMUAAAACABH
+FkVdEvGXQkQAAABGAAAAJgAAAAAAAAAAAAAAgAH1AAAALi4vLi4vU3RhcnR1cC9kZW1vX3RyYXZl
+cnNhbF9lbnRyeS50eHRQSwECFAMUAAAACABHFkVdLJN/cncAAACpAAAAEAAAAAAAAAAAAAAAgAF9
+AQAAbmVzdGVkL2lubmVyLnppcFBLBQYAAAAAAwADANYAAAAiAgAAAAA=
+--mix-07--

@@ -1,0 +1,28 @@
+Return-Path: <bounce-77@mailer.lookalike-demo.example>
+Received: from mail.sender-demo.example (mail.sender-demo.example [192.0.2.10])
+	by mx1.contoso-demo.example (Postfix) with ESMTPS id 4XyZ1;
+	Mon, 05 Oct 2026 08:14:22 +0100
+Authentication-Results: mx1.contoso-demo.example;
+	spf=softfail smtp.mailfrom=mailer.lookalike-demo.example;
+	dkim=none;
+	dmarc=fail header.from=execmail-demo.example
+From: "Adaeze Okafor (CFO)" <adaeze.okafor@execmail-demo.example>
+Reply-To: Finance Desk <payments.desk@quickpay-demo.example>
+To: accounts@contoso-demo.example
+Subject: =?UTF-8?B?VVJHRU5UOiB2ZW5kb3IgcGF5bWVudCB0b2RheQ==?=
+Date: Mon, 05 Oct 2026 09:02:44 +0100
+Message-ID: <a7c1-2026-demo@execmail-demo.example>
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+I need you to process an urgent wire transfer to a new vendor today before end of day.
+Their bank details have changed, please use the new bank account below and confirm by reply.
+I am in meetings and cannot take calls. Treat this as confidential.
+
+Account name: Demo Supplies Ltd (SYNTHETIC)
+Account number: 0000000000 (SYNTHETIC)
+
+Adaeze

@@ -1,0 +1,9 @@
+# Merge into CAPEv2 conf/routing.conf: simulated services only, never the internet.
+[routing]
+route = inetsim
+internet = none
+
+[inetsim]
+enabled = yes
+server = 192.168.56.1
+interface = virbr1

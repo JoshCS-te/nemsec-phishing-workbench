@@ -1,0 +1,11 @@
+backend/data/
+backend/.pytest-data/
+**/__pycache__/
+.venv/
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+*.tsbuildinfo
+.env
+
+samples/harmless/*.exe

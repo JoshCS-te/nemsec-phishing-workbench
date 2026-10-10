@@ -1,0 +1,6 @@
+<!-- libvirt host-only network: no <forward> element, so guests cannot reach the LAN or internet -->
+<network>
+  <name>cape-isolated</name>
+  <bridge name="virbr1" stp="on" delay="0"/>
+  <ip address="192.168.56.1" netmask="255.255.255.0"/>
+</network>

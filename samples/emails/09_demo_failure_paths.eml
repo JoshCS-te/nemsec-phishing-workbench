@@ -1,0 +1,35 @@
+From: NEMSEC Lab <lab@nemsec-demo.example>
+To: analyst@nemsec-demo.example
+Subject: Demo-mode failure paths (harmless)
+Date: Mon, 05 Oct 2026 14:30:00 +0100
+Message-ID: <sbx-failpaths@nemsec-demo.example>
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix-09"
+
+--mix-09
+Content-Type: text/plain; charset="utf-8"
+
+In PHB_SANDBOX_MODE=demo these filenames make the demo adapter simulate a reset failure
+(guest quarantined) and an engine failure. Against a live sandbox they are the same harmless script.
+
+--mix-09
+Content-Type: application/x-bat; name="nemsec_demo-reset-fail.bat"
+Content-Disposition: attachment; filename="nemsec_demo-reset-fail.bat"
+Content-Transfer-Encoding: base64
+
+QGVjaG8gb2ZmCnJlbSBORU1TRUMgc2FuZGJveCB2ZXJpZmljYXRpb24gc2NyaXB0IC0gSEFSTUxF
+U1MuCnJlbSBXcml0ZXMgb25lIGNsZWFybHkgbmFtZWQgdGV4dCBmaWxlIHRvICVURU1QJSBhbmQg
+ZXhpdHMuIE5vdGhpbmcgZWxzZS4KZWNobyBORU1TRUMgUGhpc2hpbmcgSW52ZXN0aWdhdGlvbiBX
+b3JrYmVuY2ggLSBoYXJtbGVzcyBzYW5kYm94IHZlcmlmaWNhdGlvbiBmaWxlLj4gIiVURU1QJVxO
+RU1TRUNfU0FOREJPWF9ERU1PX0JBVC50eHQiCmV4aXQgL2IgMAo=
+--mix-09
+Content-Type: application/x-bat; name="nemsec_demo-fail.bat"
+Content-Disposition: attachment; filename="nemsec_demo-fail.bat"
+Content-Transfer-Encoding: base64
+
+QGVjaG8gb2ZmCnJlbSBORU1TRUMgc2FuZGJveCB2ZXJpZmljYXRpb24gc2NyaXB0IC0gSEFSTUxF
+U1MuCnJlbSBXcml0ZXMgb25lIGNsZWFybHkgbmFtZWQgdGV4dCBmaWxlIHRvICVURU1QJSBhbmQg
+ZXhpdHMuIE5vdGhpbmcgZWxzZS4KZWNobyBORU1TRUMgUGhpc2hpbmcgSW52ZXN0aWdhdGlvbiBX
+b3JrYmVuY2ggLSBoYXJtbGVzcyBzYW5kYm94IHZlcmlmaWNhdGlvbiBmaWxlLj4gIiVURU1QJVxO
+RU1TRUNfU0FOREJPWF9ERU1PX0JBVC50eHQiCmV4aXQgL2IgMAo=
+--mix-09--

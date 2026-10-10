@@ -1,0 +1,13 @@
+# Merge into CAPEv2 conf/kvm.conf on the sandbox host
+[kvm]
+machines = win10
+interface = virbr1
+dsn = qemu:///system
+
+[win10]
+label = win10
+platform = windows
+ip = 192.168.56.101
+arch = x64
+tags = win10
+snapshot = clean

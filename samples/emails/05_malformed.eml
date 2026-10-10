@@ -1,0 +1,19 @@
+From: "Broken Sender" <broken-sender@malformed-demo.example>
+From: "Second From" <second@other-demo.example>
+To: ngozi.eze@contoso-demo.example
+Subject: =?X-UNKNOWN-CHARSET?Q?Malformed_=E9ncoding?=
+Date: Funday, 45 Smarch 2026 25:61:00 +9999
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="mix-05"
+
+--mix-05
+Content-Type: text/plain; charset="no-such-charset"
+
+Body text in an unknown charset. café
+
+--mix-05
+Content-Type: application/octet-stream; name="data.bin"
+Content-Disposition: attachment; filename="data.bin"
+Content-Transfer-Encoding: base64
+
+SGVsbG8gZnJvbSBhIHRydW5jYXRlZCBiYXNlNjQgcGF5bG9hZA=

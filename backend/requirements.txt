@@ -1,0 +1,12 @@
+# Runtime (versions verified with Python 3.13 on 2026-10-05; Python 3.11+ supported)
+fastapi==0.142.2
+uvicorn[standard]==0.53.0
+python-multipart==0.0.32
+pydantic==2.13.5
+httpx==0.28.1          # CAPEv2 adapter client
+nh3==0.3.7             # HTML sanitiser (Rust ammonia)
+reportlab==5.0.1       # PDF reports
+oletools==0.60.2       # VBA macro static scan (never executes macros)
+olefile==0.47
+pefile==2024.8.26      # PE header parsing
+psutil==7.2.2          # memory limit enforcement for the static worker
